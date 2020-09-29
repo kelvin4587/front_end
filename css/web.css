@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  min-width: 1200px;
+  min-height: 600px;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  min-width: 1300px;
+  min-height: 600px;
+  overflow: hidden;
+  font-size: 62.5%;
+  background: url("../img/bg.gif");
+}
+
+body {
+  position: relative;
+  font-size: 1.4rem;
+  font-family: "Microsoft Yahei", Arial, sans-serif;
+  background: #152561 0 0/100% 100% no-repeat;
+}
+
+#header {
+  height: 15vh;
+  background: url(../img/header.png) 0 0/100% 100% no-repeat;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+#header .header-title {
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  line-height: 5vh;
+  font-size: 2rem;
+}
+
+#header .header-date {
+  position: relative;
+  text-align: center;
+  font-weight: 400;
+  color: #85ecff;
+  top: 9vh;
+  left: 19vw;
+  line-height: 5vh;
+  font-size: 2.5rem;
+}
+
+.right-label {
+  position: relative;
+  color: #3ac5fc;
+  top: 9vh;
+  left: 6vw;
+  line-height: 5vh;
+  font-size: 2.5rem;
+}
+
+.left-label {
+  position: relative;
+  color: #3ac5fc;
+  top: 9vh;
+  left: 28vw;
+  line-height: 5vh;
+  font-size: 2.5rem;
+}
+
+.number-board {
+  background-color: #24467d;
+  color: white;
+  width: 44px;
+  text-align: center;
+  display: inline-block;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4vh;
+  text-align: center;
+  color: #3ac5fc;
+}
+
+.char-box {
+  border-style: solid;
+  border-width: 26px 27px 27px;
+  border-image: url(../imgs/chart-wrapper.png) 26 27 27 fill/1/0 repeat;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 68%;
+  }
+}
+
+/* 图表布局 */
+.body-content {
+  width: 96vw;
+  height: 89vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 15vh;
+  bottom: 4vh;
+  left: 2vw;
+  right: 0;
+  /* layout -  layout2 */
+}
+
+.body-content .layout-flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-content .flex-row {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-content .flex-row .flex-cell {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 0px;
+}
+
+.body-content .flex-row .flex-cell-l, .body-content .flex-row .flex-cell-r {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 0px;
+}
+
+.body-content .flex-row .flex-cell-c {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.map {
+  height: 75%;
+  background: rgba(40, 30, 47, 0.1) url(../img/bg.png) 0 0/100% 100% no-repeat;
+}
+
+.body-content .flex-row .flex-cell-lc {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+.body-content .flex-row .chart-title {
+  height: 30px;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #5ac8fa;
+}
+
+.body-content .flex-row .chart-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.left-wrapper {
+  height: 30%;
+}
+
+.right-wrapper {
+  height: 22%;
+}
+
+.center-wrapper {
+  height: 15%;
+}
+
+.body-content .flex-row .chart-wrapper .chart-div {
+  position: absolute;
+  top: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 26px 27px 27px;
+  border-image: url("../img/chart-wrapper.png") 26 27 27 fill/1/0 repeat;
+}
+
+.body-content .flex-row .chart-wrapper .content-wrap {
+  position: absolute;
+  top: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.body-content .chart-wrapper .wrap-h4 {
+  height: 40%;
+}
+
+.body-content .chart-wrapper .wrap-h6 {
+  height: 65%;
+}
+
+.body-content .chart-wrapper .content-wrap .chart-title {
+  color: #fafafa;
+  font-size: 1.6rem;
+}
+
+.body-content .chart-wrapper .content-wrap .chart-body {
+  height: calc(100% - 2rem);
+}
+
+.body-content .chart-wrapper .chart-new {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.body-content .chart-wrapper .map-info {
+  width: 200px;
+  position: absolute;
+  top: -10px;
+}
+
+.body-content .chart-wrapper .map-info .info-title {
+  font-size: 1.6rem;
+  color: #13a1ea;
+}
+
+.body-content .chart-wrapper .map-info .info-number {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #ff9a00;
+  font-weight: bold;
+}
+
+.body-content .chart-wrapper .map-info .info-number .info-unit {
+  font-size: 2rem;
+  color: #13a1ea;
+  font-weight: 400;
+}
+
+.body-content .chart-wrapper .map-right {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  text-align: right;
+}
+
+.body-content .chart-wrapper .map-right .info-other {
+  font-size: 1.6rem;
+  color: #13a1ea;
+}
+
+.body-content .chart-wrapper .map-right .info-rate {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #13a1ea;
+}
+
+.body-content .chart-wrapper .map-right .info-rate .info-unit {
+  font-size: 2rem;
+  color: #13a1ea;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=web.css.map */

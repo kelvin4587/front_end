@@ -1,0 +1,62 @@
+[{
+  "timestamp": "2020-09-21T01:46:08.910Z",
+  "type": "Gateway",
+  "mac": "AC233FC06B79",
+  "gatewayFree": 88,
+  "gatewayLoad": 1.0
+}, {
+  "timestamp": "2020-09-21T01:46:09.476Z",
+  "type": "iBeacon",
+  "mac": "AC233F5BEEAA",
+  "bleName": "tesla",
+  "ibeaconUuid": "FDA50693A4E24FB1AFCFC6EB07647825",
+  "ibeaconMajor": 10001,
+  "ibeaconMinor": 19641,
+  "rssi": -70,
+  "ibeaconTxPower": -59,
+  "battery": 100
+}, {
+  "timestamp": "2020-09-21T01:46:09.439Z",
+  "type": "iBeacon",
+  "mac": "AC233F5BEEAB",
+  "bleName": "tesla",
+  "ibeaconUuid": "FDA50693A4E24FB1AFCFC6EB07647825",
+  "ibeaconMajor": 10001,
+  "ibeaconMinor": 19641,
+  "rssi": -77,
+  "ibeaconTxPower": -59,
+  "battery": 100
+}, {
+  "timestamp": "2020-09-21T01:46:09.359Z",
+  "type": "iBeacon",
+  "mac": "AC233F5BEEAD",
+  "bleName": "tesla",
+  "ibeaconUuid": "FDA50693A4E24FB1AFCFC6EB07647825",
+  "ibeaconMajor": 10001,
+  "ibeaconMinor": 19641,
+  "rssi": -76,
+  "ibeaconTxPower": -59,
+  "battery": 100
+}, {
+  "timestamp": "2020-09-21T01:46:09.482Z",
+  "type": "iBeacon",
+  "mac": "AC233F5E6A6F",
+  "bleName": "tesla",
+  "ibeaconUuid": "FDA50693A4E24FB1AFCFC6EB07647825",
+  "ibeaconMajor": 10001,
+  "ibeaconMinor": 19641,
+  "rssi": -68,
+  "ibeaconTxPower": -59,
+  "battery": 100
+}, {
+  "timestamp": "2020-09-21T01:46:09.409Z",
+  "type": "iBeacon",
+  "mac": "AC233F5E6A74",
+  "bleName": "tesla",
+  "ibeaconUuid": "FDA50693A4E24FB1AFCFC6EB07647825",
+  "ibeaconMajor": 10001,
+  "ibeaconMinor": 19641,
+  "rssi": -68,
+  "ibeaconTxPower": -59,
+  "battery": 100
+}]

@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS first steps</title>
+  <style type="text/css">
+    #outer div ul .nav a {
+      background-color: blue;
+      padding: 5px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    div div li a {
+      color: yellow;
+    }
+    #outer #inner a {
+      background-color: initial;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="outer" class="container">
+    <div id="inner" class="container">
+      <ul>
+        <li class="nav"><a href="#">One</a></li>
+        <li class="nav"><a href="#">Two</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+<html>
