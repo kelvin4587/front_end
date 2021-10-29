@@ -1,0 +1,1775 @@
+{
+  "code": 0,
+  "message": "请求成功",
+  "data": {
+    "permissions": [
+      {
+        "key": 6,
+        "title": "主页面",
+        "permissionId": 6,
+        "type": 20,
+        "path": "/dashboard",
+        "name": "主页面",
+        "parentId": 0,
+        "children": []
+      },
+      {
+        "key": 9,
+        "title": "数据接口",
+        "permissionId": 9,
+        "type": 20,
+        "path": "/open-api",
+        "name": "数据接口",
+        "parentId": 0,
+        "children": []
+      },
+      {
+        "key": 35,
+        "title": "报表菜单",
+        "permissionId": 35,
+        "type": 10,
+        "path": "/report",
+        "name": "报表菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 7,
+            "title": "出货报表页面",
+            "permissionId": 7,
+            "type": 20,
+            "path": "/truck",
+            "name": "出货报表页面",
+            "parentId": 35,
+            "children": [
+              {
+                "key": 135,
+                "title": "出货报表详情页面",
+                "permissionId": 135,
+                "type": 20,
+                "path": "/truck/detail",
+                "name": "出货报表详情页面",
+                "parentId": 7,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 8,
+            "title": "呆滞载具页面",
+            "permissionId": 8,
+            "type": 20,
+            "path": "/idle-carrier",
+            "name": "呆滞载具页面",
+            "parentId": 35,
+            "children": []
+          }
+        ]
+      },
+      {
+        "key": 36,
+        "title": "监控菜单",
+        "permissionId": 36,
+        "type": 10,
+        "path": "/monitor",
+        "name": "监控菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 18,
+            "title": "载具报警页面",
+            "permissionId": 18,
+            "type": 20,
+            "path": "/carrier-alert",
+            "name": "载具报警页面",
+            "parentId": 36,
+            "children": [
+              {
+                "key": 113,
+                "title": "载具报警详情",
+                "permissionId": 113,
+                "type": 20,
+                "path": "/carrier-alert-detail",
+                "name": "载具报警详情",
+                "parentId": 18,
+                "children": []
+              },
+              {
+                "key": 170,
+                "title": "载具报警处理功能",
+                "permissionId": 170,
+                "type": 30,
+                "path": "/carrier-alert/process",
+                "name": "载具报警处理功能",
+                "parentId": 18,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 20,
+            "title": "信标数据采集页面",
+            "permissionId": 20,
+            "type": 20,
+            "path": "/data-points-beacon",
+            "name": "信标数据采集页面",
+            "parentId": 36,
+            "children": [
+              {
+                "key": 94,
+                "title": "信标数据采集详情页",
+                "permissionId": 94,
+                "type": 20,
+                "path": "/data-points-beacon/detail",
+                "name": "信标数据采集详情页",
+                "parentId": 20,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 54,
+            "title": "信标异常页面",
+            "permissionId": 54,
+            "type": 20,
+            "path": "/device-beacon-alert",
+            "name": "信标异常页面",
+            "parentId": 36,
+            "children": [
+              {
+                "key": 55,
+                "title": "信标异常详情页面",
+                "permissionId": 55,
+                "type": 20,
+                "path": "/device-beacon-alert/detail",
+                "name": "信标异常详情页面",
+                "parentId": 54,
+                "children": []
+              },
+              {
+                "key": 171,
+                "title": "信标异常处理功能",
+                "permissionId": 171,
+                "type": 30,
+                "path": "/device-alert/beacon/process",
+                "name": "信标异常处理功能",
+                "parentId": 54,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 58,
+            "title": "蓝牙网关异常页面",
+            "permissionId": 58,
+            "type": 20,
+            "path": "/device-slave-gateway-alert",
+            "name": "蓝牙网关异常页面",
+            "parentId": 36,
+            "children": [
+              {
+                "key": 59,
+                "title": "蓝牙网关异常详情页面",
+                "permissionId": 59,
+                "type": 20,
+                "path": "/device-slave-gateway-alert/detail",
+                "name": "蓝牙网关异常详情页面",
+                "parentId": 58,
+                "children": []
+              },
+              {
+                "key": 172,
+                "title": "蓝牙网关异常处理功能",
+                "permissionId": 172,
+                "type": 30,
+                "path": "/device-alert/slave-gateway/process",
+                "name": "蓝牙网关异常处理功能",
+                "parentId": 58,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 60,
+            "title": "边缘网关异常页面",
+            "permissionId": 60,
+            "type": 20,
+            "path": "/device-master-gateway-alert",
+            "name": "边缘网关异常页面",
+            "parentId": 36,
+            "children": [
+              {
+                "key": 61,
+                "title": "边缘网关异常详情页面",
+                "permissionId": 61,
+                "type": 20,
+                "path": "/device-master-gateway-alert/detail",
+                "name": "边缘网关异常详情页面",
+                "parentId": 60,
+                "children": []
+              },
+              {
+                "key": 173,
+                "title": "边缘网关异常处理功能",
+                "permissionId": 173,
+                "type": 30,
+                "path": "/device-alert/master-gateway/process",
+                "name": "边缘网关异常处理功能",
+                "parentId": 60,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 95,
+            "title": "定位数据采集页",
+            "permissionId": 95,
+            "type": 20,
+            "path": "/data-points-gps",
+            "name": "定位数据采集页",
+            "parentId": 36,
+            "children": [
+              {
+                "key": 96,
+                "title": "定位数据采集详情页",
+                "permissionId": 96,
+                "type": 20,
+                "path": "/data-points-gps/detail",
+                "name": "定位数据采集详情页",
+                "parentId": 95,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 37,
+        "title": "系统菜单",
+        "permissionId": 37,
+        "type": 10,
+        "path": "/system",
+        "name": "系统菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 21,
+            "title": "组织页面",
+            "permissionId": 21,
+            "type": 20,
+            "path": "/organization",
+            "name": "组织页面",
+            "parentId": 37,
+            "children": [
+              {
+                "key": 22,
+                "title": "新建组织页面",
+                "permissionId": 22,
+                "type": 20,
+                "path": "/organization/create",
+                "name": "新建组织页面",
+                "parentId": 21,
+                "children": []
+              },
+              {
+                "key": 23,
+                "title": "编辑组织页面",
+                "permissionId": 23,
+                "type": 20,
+                "path": "/organization/edit",
+                "name": "编辑组织页面",
+                "parentId": 21,
+                "children": []
+              },
+              {
+                "key": 106,
+                "title": "组织详情页面",
+                "permissionId": 106,
+                "type": 20,
+                "path": "/organization/detail",
+                "name": "组织详情页面",
+                "parentId": 21,
+                "children": []
+              },
+              {
+                "key": 107,
+                "title": "组织删除功能",
+                "permissionId": 107,
+                "type": 30,
+                "path": "/organization/delete",
+                "name": "组织删除功能",
+                "parentId": 21,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 24,
+            "title": "用户页面",
+            "permissionId": 24,
+            "type": 20,
+            "path": "/user",
+            "name": "用户页面",
+            "parentId": 37,
+            "children": [
+              {
+                "key": 25,
+                "title": "新建用户页面",
+                "permissionId": 25,
+                "type": 20,
+                "path": "/user/create",
+                "name": "新建用户页面",
+                "parentId": 24,
+                "children": []
+              },
+              {
+                "key": 26,
+                "title": "用户编辑页面",
+                "permissionId": 26,
+                "type": 20,
+                "path": "/user/edit",
+                "name": "用户编辑页面",
+                "parentId": 24,
+                "children": []
+              },
+              {
+                "key": 108,
+                "title": "用户详情页面",
+                "permissionId": 108,
+                "type": 20,
+                "path": "/user/detail",
+                "name": "用户详情页面",
+                "parentId": 24,
+                "children": []
+              },
+              {
+                "key": 109,
+                "title": "用户删除功能",
+                "permissionId": 109,
+                "type": 30,
+                "path": "/user/delete",
+                "name": "用户删除功能",
+                "parentId": 24,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 27,
+            "title": "角色页面",
+            "permissionId": 27,
+            "type": 20,
+            "path": "/role",
+            "name": "角色页面",
+            "parentId": 37,
+            "children": [
+              {
+                "key": 28,
+                "title": "新建角色页面",
+                "permissionId": 28,
+                "type": 20,
+                "path": "/role/create",
+                "name": "新建角色页面",
+                "parentId": 27,
+                "children": []
+              },
+              {
+                "key": 29,
+                "title": "编辑角色页面",
+                "permissionId": 29,
+                "type": 20,
+                "path": "/role/edit",
+                "name": "编辑角色页面",
+                "parentId": 27,
+                "children": []
+              },
+              {
+                "key": 174,
+                "title": "角色详情页面",
+                "permissionId": 174,
+                "type": 20,
+                "path": "/role/detail",
+                "name": "角色详情页面",
+                "parentId": 27,
+                "children": []
+              },
+              {
+                "key": 175,
+                "title": "角色删除功能",
+                "permissionId": 175,
+                "type": 30,
+                "path": "/role/delete",
+                "name": "角色删除功能",
+                "parentId": 27,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 30,
+            "title": "数据字典页面",
+            "permissionId": 30,
+            "type": 20,
+            "path": "/dictionary",
+            "name": "数据字典页面",
+            "parentId": 37,
+            "children": [
+              {
+                "key": 31,
+                "title": "新建数据字典页面",
+                "permissionId": 31,
+                "type": 20,
+                "path": "/dictionary/create",
+                "name": "新建数据字典页面",
+                "parentId": 30,
+                "children": []
+              },
+              {
+                "key": 32,
+                "title": "编辑数据字典页面",
+                "permissionId": 32,
+                "type": 20,
+                "path": "/dictionary/edit",
+                "name": "编辑数据字典页面",
+                "parentId": 30,
+                "children": []
+              },
+              {
+                "key": 98,
+                "title": "数据字典详情页面",
+                "permissionId": 98,
+                "type": 20,
+                "path": "/dictionary/detail",
+                "name": "数据字典详情页面",
+                "parentId": 30,
+                "children": []
+              },
+              {
+                "key": 99,
+                "title": "数据字典删除功能",
+                "permissionId": 99,
+                "type": 30,
+                "path": "/dictionary/delete",
+                "name": "数据字典删除功能",
+                "parentId": 30,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 33,
+            "title": "配置页面",
+            "permissionId": 33,
+            "type": 20,
+            "path": "/config",
+            "name": "配置页面",
+            "parentId": 37,
+            "children": []
+          },
+          {
+            "key": 34,
+            "title": "操作记录页面",
+            "permissionId": 34,
+            "type": 20,
+            "path": "/operation-log",
+            "name": "操作记录页面",
+            "parentId": 37,
+            "children": []
+          },
+          {
+            "key": 97,
+            "title": "请求记录页面",
+            "permissionId": 97,
+            "type": 20,
+            "path": "/admin-log",
+            "name": "请求记录页面",
+            "parentId": 37,
+            "children": []
+          }
+        ]
+      },
+      {
+        "key": 38,
+        "title": "载具菜单",
+        "permissionId": 38,
+        "type": 10,
+        "path": "/carrier/management",
+        "name": "载具菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 10,
+            "title": "载具页面",
+            "permissionId": 10,
+            "type": 20,
+            "path": "/carrier",
+            "name": "载具页面",
+            "parentId": 38,
+            "children": [
+              {
+                "key": 11,
+                "title": "新建载具页面",
+                "permissionId": 11,
+                "type": 20,
+                "path": "/carrier/create",
+                "name": "新建载具页面",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 12,
+                "title": "编辑载具页面",
+                "permissionId": 12,
+                "type": 20,
+                "path": "/carrier/edit",
+                "name": "编辑载具页面",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 110,
+                "title": "载具详情页面",
+                "permissionId": 110,
+                "type": 20,
+                "path": "/carrier/detail",
+                "name": "载具详情页面",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 132,
+                "title": "载具日志",
+                "permissionId": 132,
+                "type": 20,
+                "path": "/carrier-log",
+                "name": "载具日志",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 136,
+                "title": "载具删除功能",
+                "permissionId": 136,
+                "type": 30,
+                "path": "/carrier/delete",
+                "name": "载具删除功能",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 152,
+                "title": "载具启用功能",
+                "permissionId": 152,
+                "type": 30,
+                "path": "/carrier/enable",
+                "name": "载具启用功能",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 153,
+                "title": "载具停用功能",
+                "permissionId": 153,
+                "type": 30,
+                "path": "/carrier/disable",
+                "name": "载具停用功能",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 154,
+                "title": "载具打印功能",
+                "permissionId": 154,
+                "type": 30,
+                "path": "/carrier/print",
+                "name": "载具打印功能",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 155,
+                "title": "载具下载功能",
+                "permissionId": 155,
+                "type": 30,
+                "path": "/carrier/download",
+                "name": "载具下载功能",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 156,
+                "title": "载具导入功能",
+                "permissionId": 156,
+                "type": 30,
+                "path": "/carrier/import",
+                "name": "载具导入功能",
+                "parentId": 10,
+                "children": []
+              },
+              {
+                "key": 157,
+                "title": "载具导出功能",
+                "permissionId": 157,
+                "type": 30,
+                "path": "/carrier/export",
+                "name": "载具导出功能",
+                "parentId": 10,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 13,
+            "title": "载具编码页面",
+            "permissionId": 13,
+            "type": 20,
+            "path": "/carrier-code",
+            "name": "载具编码页面",
+            "parentId": 38,
+            "children": [
+              {
+                "key": 52,
+                "title": "新增载具编码",
+                "permissionId": 52,
+                "type": 20,
+                "path": "/carrier-code/create",
+                "name": "新增载具编码",
+                "parentId": 13,
+                "children": []
+              },
+              {
+                "key": 53,
+                "title": "更新载具编码",
+                "permissionId": 53,
+                "type": 20,
+                "path": "/carrier-code/edit",
+                "name": "更新载具编码",
+                "parentId": 13,
+                "children": []
+              },
+              {
+                "key": 111,
+                "title": "载具编码详情页面",
+                "permissionId": 111,
+                "type": 20,
+                "path": "/carrier-code/detail",
+                "name": "载具编码详情页面",
+                "parentId": 13,
+                "children": []
+              },
+              {
+                "key": 158,
+                "title": "载具编码导出功能",
+                "permissionId": 158,
+                "type": 30,
+                "path": "/carrier-code/export",
+                "name": "载具编码导出功能",
+                "parentId": 13,
+                "children": []
+              },
+              {
+                "key": 176,
+                "title": "载具编码删除功能",
+                "permissionId": 176,
+                "type": 30,
+                "path": "/carrier-code/delete",
+                "name": "载具编码删除功能",
+                "parentId": 13,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 39,
+        "title": "设备菜单",
+        "permissionId": 39,
+        "type": 10,
+        "path": "/device",
+        "name": "设备菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 15,
+            "title": "设备模型页面",
+            "permissionId": 15,
+            "type": 20,
+            "path": "/device-model",
+            "name": "设备模型页面",
+            "parentId": 39,
+            "children": [
+              {
+                "key": 16,
+                "title": "新建设备模型页面",
+                "permissionId": 16,
+                "type": 20,
+                "path": "/device-model/create",
+                "name": "新建设备模型页面",
+                "parentId": 15,
+                "children": []
+              },
+              {
+                "key": 17,
+                "title": "编辑设备模型页面",
+                "permissionId": 17,
+                "type": 20,
+                "path": "/device-model/edit",
+                "name": "编辑设备模型页面",
+                "parentId": 15,
+                "children": []
+              },
+              {
+                "key": 90,
+                "title": "设备模型详情页面",
+                "permissionId": 90,
+                "type": 20,
+                "path": "/device-model/detail",
+                "name": "设备模型详情页面",
+                "parentId": 15,
+                "children": []
+              },
+              {
+                "key": 91,
+                "title": "设备模型删除功能",
+                "permissionId": 91,
+                "type": 30,
+                "path": "/device-model/delete",
+                "name": "设备模型删除功能",
+                "parentId": 15,
+                "children": []
+              },
+              {
+                "key": 169,
+                "title": "设备模型导出功能",
+                "permissionId": 169,
+                "type": 30,
+                "path": "/device-model/export",
+                "name": "设备模型导出功能",
+                "parentId": 15,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 40,
+            "title": "信标页面",
+            "permissionId": 40,
+            "type": 20,
+            "path": "/device-beacon",
+            "name": "信标页面",
+            "parentId": 39,
+            "children": [
+              {
+                "key": 41,
+                "title": "新建信标页面",
+                "permissionId": 41,
+                "type": 20,
+                "path": "/device-beacon/create",
+                "name": "新建信标页面",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 42,
+                "title": "更新信标页面",
+                "permissionId": 42,
+                "type": 20,
+                "path": "/device-beacon/edit",
+                "name": "更新信标页面",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 100,
+                "title": "信标详情页面",
+                "permissionId": 100,
+                "type": 20,
+                "path": "/device-beacon/detail",
+                "name": "信标详情页面",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 103,
+                "title": "信标删除功能",
+                "permissionId": 103,
+                "type": 30,
+                "path": "/device-beacon/delete",
+                "name": "信标删除功能",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 133,
+                "title": "蓝牙信标日志",
+                "permissionId": 133,
+                "type": 20,
+                "path": "/device-beacon-log",
+                "name": "蓝牙信标日志",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 159,
+                "title": "信标启用功能",
+                "permissionId": 159,
+                "type": 30,
+                "path": "/device-beacon/enable",
+                "name": "信标启用功能",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 160,
+                "title": "信标停用功能",
+                "permissionId": 160,
+                "type": 30,
+                "path": "/device-beacon/disable",
+                "name": "信标停用功能",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 161,
+                "title": "信标下载功能",
+                "permissionId": 161,
+                "type": 30,
+                "path": "/device-beacon/download",
+                "name": "信标下载功能",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 162,
+                "title": "信标导入功能",
+                "permissionId": 162,
+                "type": 30,
+                "path": "/device-beacon/import",
+                "name": "信标导入功能",
+                "parentId": 40,
+                "children": []
+              },
+              {
+                "key": 163,
+                "title": "信标导出功能",
+                "permissionId": 163,
+                "type": 30,
+                "path": "/device-beacon/export",
+                "name": "信标导出功能",
+                "parentId": 40,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 43,
+            "title": "定位页面",
+            "permissionId": 43,
+            "type": 20,
+            "path": "/device-gps",
+            "name": "定位页面",
+            "parentId": 39,
+            "children": [
+              {
+                "key": 44,
+                "title": "新增定位页面",
+                "permissionId": 44,
+                "type": 20,
+                "path": "/device-gps/create",
+                "name": "新增定位页面",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 45,
+                "title": "更新定位页面",
+                "permissionId": 45,
+                "type": 20,
+                "path": "/device-gps/edit",
+                "name": "更新定位页面",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 92,
+                "title": "定位详情页面",
+                "permissionId": 92,
+                "type": 20,
+                "path": "/device-gps/detail",
+                "name": "定位详情页面",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 93,
+                "title": "定位删除功能",
+                "permissionId": 93,
+                "type": 30,
+                "path": "/device-gps/delete",
+                "name": "定位删除功能",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 131,
+                "title": "远程配置GPS",
+                "permissionId": 131,
+                "type": 30,
+                "path": "/device-gps/configure",
+                "name": "远程配置GPS",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 134,
+                "title": "GPS设备日志",
+                "permissionId": 134,
+                "type": 20,
+                "path": "/device-gps-log",
+                "name": "GPS设备日志",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 164,
+                "title": "定位启用功能",
+                "permissionId": 164,
+                "type": 30,
+                "path": "/device-gps/enable",
+                "name": "定位启用功能",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 165,
+                "title": "定位停用功能",
+                "permissionId": 165,
+                "type": 30,
+                "path": "/device-gps/disable",
+                "name": "定位停用功能",
+                "parentId": 43,
+                "children": []
+              },
+              {
+                "key": 166,
+                "title": "定位导出功能",
+                "permissionId": 166,
+                "type": 30,
+                "path": "/device-gps/export",
+                "name": "定位导出功能",
+                "parentId": 43,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 46,
+            "title": "蓝牙网关页面",
+            "permissionId": 46,
+            "type": 20,
+            "path": "/device-slave-gateway",
+            "name": "蓝牙网关页面",
+            "parentId": 39,
+            "children": [
+              {
+                "key": 47,
+                "title": "新增蓝牙网关页面",
+                "permissionId": 47,
+                "type": 20,
+                "path": "/device-slave-gateway/create",
+                "name": "新增蓝牙网关页面",
+                "parentId": 46,
+                "children": []
+              },
+              {
+                "key": 48,
+                "title": "更新蓝牙网关页面",
+                "permissionId": 48,
+                "type": 20,
+                "path": "/device-slave-gateway/edit",
+                "name": "更新蓝牙网关页面",
+                "parentId": 46,
+                "children": []
+              },
+              {
+                "key": 102,
+                "title": "蓝牙网关详情页面",
+                "permissionId": 102,
+                "type": 20,
+                "path": "/device-slave-gateway/detail",
+                "name": "蓝牙网关详情页面",
+                "parentId": 46,
+                "children": []
+              },
+              {
+                "key": 105,
+                "title": "蓝牙网关删除功能",
+                "permissionId": 105,
+                "type": 30,
+                "path": "/device-slave-gateway/delete",
+                "name": "蓝牙网关删除功能",
+                "parentId": 46,
+                "children": []
+              },
+              {
+                "key": 167,
+                "title": "蓝牙网关导出功能",
+                "permissionId": 167,
+                "type": 30,
+                "path": "/device-slave-gateway/export",
+                "name": "蓝牙网关导出功能",
+                "parentId": 46,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 49,
+            "title": "边缘网关页面",
+            "permissionId": 49,
+            "type": 20,
+            "path": "/device-master-gateway",
+            "name": "边缘网关页面",
+            "parentId": 39,
+            "children": [
+              {
+                "key": 50,
+                "title": "新增边缘网关页面",
+                "permissionId": 50,
+                "type": 20,
+                "path": "/device-master-gateway/create",
+                "name": "新增边缘网关页面",
+                "parentId": 49,
+                "children": []
+              },
+              {
+                "key": 51,
+                "title": "更新边缘网关页面",
+                "permissionId": 51,
+                "type": 20,
+                "path": "/device-master-gateway/edit",
+                "name": "更新边缘网关页面",
+                "parentId": 49,
+                "children": []
+              },
+              {
+                "key": 101,
+                "title": "边缘网关详情页面",
+                "permissionId": 101,
+                "type": 20,
+                "path": "/device-master-gateway/detail",
+                "name": "边缘网关详情页面",
+                "parentId": 49,
+                "children": []
+              },
+              {
+                "key": 104,
+                "title": "边缘网关删除功能",
+                "permissionId": 104,
+                "type": 30,
+                "path": "/device-master-gateway/delete",
+                "name": "边缘网关删除功能",
+                "parentId": 49,
+                "children": []
+              },
+              {
+                "key": 168,
+                "title": "边缘网关导出功能",
+                "permissionId": 168,
+                "type": 30,
+                "path": "/device-master-gateway/export",
+                "name": "边缘网关导出功能",
+                "parentId": 49,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 62,
+        "title": "基本信息菜单",
+        "permissionId": 62,
+        "type": 10,
+        "path": "/basic-info",
+        "name": "基本信息菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 63,
+            "title": "项目页面",
+            "permissionId": 63,
+            "type": 20,
+            "path": "/project",
+            "name": "项目页面",
+            "parentId": 62,
+            "children": [
+              {
+                "key": 64,
+                "title": "新建项目页面",
+                "permissionId": 64,
+                "type": 20,
+                "path": "/project/create",
+                "name": "新建项目页面",
+                "parentId": 63,
+                "children": []
+              },
+              {
+                "key": 65,
+                "title": "编辑项目页面",
+                "permissionId": 65,
+                "type": 20,
+                "path": "/project/edit",
+                "name": "编辑项目页面",
+                "parentId": 63,
+                "children": []
+              },
+              {
+                "key": 117,
+                "title": "项目详情页面",
+                "permissionId": 117,
+                "type": 20,
+                "path": "/project/detail",
+                "name": "项目详情页面",
+                "parentId": 63,
+                "children": []
+              },
+              {
+                "key": 177,
+                "title": "项目删除功能",
+                "permissionId": 177,
+                "type": 20,
+                "path": "/project/delete",
+                "name": "项目删除功能",
+                "parentId": 63,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 67,
+            "title": "供应商客户页面",
+            "permissionId": 67,
+            "type": 20,
+            "path": "/supplier-customer",
+            "name": "供应商客户页面",
+            "parentId": 62,
+            "children": [
+              {
+                "key": 68,
+                "title": "新建供应商客户页面",
+                "permissionId": 68,
+                "type": 20,
+                "path": "/supplier-customer/create",
+                "name": "新建供应商客户页面",
+                "parentId": 67,
+                "children": []
+              },
+              {
+                "key": 69,
+                "title": "编辑供应商客户页面",
+                "permissionId": 69,
+                "type": 20,
+                "path": "/supplier-customer/edit",
+                "name": "编辑供应商客户页面",
+                "parentId": 67,
+                "children": []
+              },
+              {
+                "key": 118,
+                "title": "供应商客户详情页面",
+                "permissionId": 118,
+                "type": 20,
+                "path": "/supplier-customer/detail",
+                "name": "供应商客户详情页面",
+                "parentId": 67,
+                "children": []
+              },
+              {
+                "key": 178,
+                "title": "供应商客户删除功能",
+                "permissionId": 178,
+                "type": 20,
+                "path": "/supplier-customer/delete",
+                "name": "供应商客户删除功能",
+                "parentId": 67,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 70,
+            "title": "地点页面",
+            "permissionId": 70,
+            "type": 20,
+            "path": "/location",
+            "name": "地点页面",
+            "parentId": 62,
+            "children": [
+              {
+                "key": 71,
+                "title": "新建地点页面",
+                "permissionId": 71,
+                "type": 20,
+                "path": "/location/create",
+                "name": "新建地点页面",
+                "parentId": 70,
+                "children": []
+              },
+              {
+                "key": 72,
+                "title": "编辑地点页面",
+                "permissionId": 72,
+                "type": 20,
+                "path": "/location/edit",
+                "name": "编辑地点页面",
+                "parentId": 70,
+                "children": []
+              },
+              {
+                "key": 119,
+                "title": "地点详情页面",
+                "permissionId": 119,
+                "type": 20,
+                "path": "/location/detail",
+                "name": "地点详情页面",
+                "parentId": 70,
+                "children": []
+              },
+              {
+                "key": 179,
+                "title": "地点删除功能",
+                "permissionId": 179,
+                "type": 20,
+                "path": "/location/delete",
+                "name": "地点删除功能",
+                "parentId": 70,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 73,
+            "title": "仓库页面",
+            "permissionId": 73,
+            "type": 20,
+            "path": "/warehouse",
+            "name": "仓库页面",
+            "parentId": 62,
+            "children": [
+              {
+                "key": 74,
+                "title": "新建仓库页面",
+                "permissionId": 74,
+                "type": 20,
+                "path": "/warehouse/create",
+                "name": "新建仓库页面",
+                "parentId": 73,
+                "children": []
+              },
+              {
+                "key": 75,
+                "title": "编辑仓库页面",
+                "permissionId": 75,
+                "type": 20,
+                "path": "/warehouse/edit",
+                "name": "编辑仓库页面",
+                "parentId": 73,
+                "children": []
+              },
+              {
+                "key": 120,
+                "title": "仓库详情页面",
+                "permissionId": 120,
+                "type": 20,
+                "path": "/warehouse/detail",
+                "name": "仓库详情页面",
+                "parentId": 73,
+                "children": []
+              },
+              {
+                "key": 180,
+                "title": "仓库删除功能",
+                "permissionId": 180,
+                "type": 20,
+                "path": "/warehouse/delete",
+                "name": "仓库删除功能",
+                "parentId": 73,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 76,
+            "title": "路线页面",
+            "permissionId": 76,
+            "type": 20,
+            "path": "/route",
+            "name": "路线页面",
+            "parentId": 62,
+            "children": [
+              {
+                "key": 77,
+                "title": "新建路线页面",
+                "permissionId": 77,
+                "type": 20,
+                "path": "/route/create",
+                "name": "新建路线页面",
+                "parentId": 76,
+                "children": []
+              },
+              {
+                "key": 78,
+                "title": "编辑路线页面",
+                "permissionId": 78,
+                "type": 20,
+                "path": "/route/edit",
+                "name": "编辑路线页面",
+                "parentId": 76,
+                "children": []
+              },
+              {
+                "key": 121,
+                "title": "路线详情页面",
+                "permissionId": 121,
+                "type": 20,
+                "path": "/route/detail",
+                "name": "路线详情页面",
+                "parentId": 76,
+                "children": []
+              },
+              {
+                "key": 181,
+                "title": "路线删除功能",
+                "permissionId": 181,
+                "type": 20,
+                "path": "/route/delete",
+                "name": "路线删除功能",
+                "parentId": 76,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 137,
+            "title": "航船页面",
+            "permissionId": 137,
+            "type": 20,
+            "path": "/shipper",
+            "name": "航船页面",
+            "parentId": 62,
+            "children": [
+              {
+                "key": 138,
+                "title": "新建航船页面",
+                "permissionId": 138,
+                "type": 20,
+                "path": "/shipper/create",
+                "name": "新建航船页面",
+                "parentId": 137,
+                "children": []
+              },
+              {
+                "key": 139,
+                "title": "编辑航船页面",
+                "permissionId": 139,
+                "type": 20,
+                "path": "/shipper/edit",
+                "name": "编辑航船页面",
+                "parentId": 137,
+                "children": []
+              },
+              {
+                "key": 140,
+                "title": "航船详情页面",
+                "permissionId": 140,
+                "type": 20,
+                "path": "/shipper/detail",
+                "name": "航船详情页面",
+                "parentId": 137,
+                "children": []
+              },
+              {
+                "key": 182,
+                "title": "航船删除功能",
+                "permissionId": 182,
+                "type": 20,
+                "path": "/shipper/delete",
+                "name": "航船删除功能",
+                "parentId": 137,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 66,
+        "title": "地图页面",
+        "permissionId": 66,
+        "type": 20,
+        "path": "/map",
+        "name": "地图页面",
+        "parentId": 0,
+        "children": []
+      },
+      {
+        "key": 79,
+        "title": "运单管理页面",
+        "permissionId": 79,
+        "type": 10,
+        "path": "/ship-order-manage",
+        "name": "运单管理页面",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 80,
+            "title": "运单页面",
+            "permissionId": 80,
+            "type": 20,
+            "path": "/ship-order",
+            "name": "运单页面",
+            "parentId": 79,
+            "children": [
+              {
+                "key": 82,
+                "title": "新建运单页面",
+                "permissionId": 82,
+                "type": 20,
+                "path": "/ship-order/create",
+                "name": "新建运单页面",
+                "parentId": 80,
+                "children": []
+              },
+              {
+                "key": 83,
+                "title": "编辑运单页面",
+                "permissionId": 83,
+                "type": 20,
+                "path": "/ship-order/edit",
+                "name": "编辑运单页面",
+                "parentId": 80,
+                "children": []
+              },
+              {
+                "key": 143,
+                "title": "运单详情页面",
+                "permissionId": 143,
+                "type": 20,
+                "path": "/ship-order/detail",
+                "name": "运单详情页面",
+                "parentId": 80,
+                "children": []
+              },
+              {
+                "key": 183,
+                "title": "运单删除功能",
+                "permissionId": 183,
+                "type": 20,
+                "path": "/ship-order/delete",
+                "name": "运单删除功能",
+                "parentId": 80,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 87,
+            "title": "运单计划",
+            "permissionId": 87,
+            "type": 20,
+            "path": "/ship-plan",
+            "name": "运单计划",
+            "parentId": 79,
+            "children": [
+              {
+                "key": 88,
+                "title": "新建运单计划页面",
+                "permissionId": 88,
+                "type": 20,
+                "path": "/ship-plan/create",
+                "name": "新建运单计划页面",
+                "parentId": 87,
+                "children": []
+              },
+              {
+                "key": 89,
+                "title": "编辑运单计划页面",
+                "permissionId": 89,
+                "type": 20,
+                "path": "/ship-plan/edit",
+                "name": "编辑运单计划页面",
+                "parentId": 87,
+                "children": []
+              },
+              {
+                "key": 122,
+                "title": "运单计划详情页面",
+                "permissionId": 122,
+                "type": 20,
+                "path": "/ship-plan/detail",
+                "name": "运单计划详情页面",
+                "parentId": 87,
+                "children": []
+              },
+              {
+                "key": 184,
+                "title": "运单计划删除功能",
+                "permissionId": 184,
+                "type": 20,
+                "path": "/ship-plan/delete",
+                "name": "运单计划删除功能",
+                "parentId": 87,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 123,
+            "title": "收货单页面",
+            "permissionId": 123,
+            "type": 20,
+            "path": "/receipt",
+            "name": "收货单页面",
+            "parentId": 79,
+            "children": [
+              {
+                "key": 124,
+                "title": "新建收货单页面",
+                "permissionId": 124,
+                "type": 20,
+                "path": "/receipt/create",
+                "name": "新建收货单页面",
+                "parentId": 123,
+                "children": []
+              },
+              {
+                "key": 125,
+                "title": "编辑收货单页面",
+                "permissionId": 125,
+                "type": 20,
+                "path": "/receipt/edit",
+                "name": "编辑收货单页面",
+                "parentId": 123,
+                "children": []
+              },
+              {
+                "key": 126,
+                "title": "收货单详情页面",
+                "permissionId": 126,
+                "type": 20,
+                "path": "/receipt/detail",
+                "name": "收货单详情页面",
+                "parentId": 123,
+                "children": []
+              },
+              {
+                "key": 185,
+                "title": "收货单删除功能",
+                "permissionId": 185,
+                "type": 20,
+                "path": "/receipt/delete",
+                "name": "收货单删除功能",
+                "parentId": 123,
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 146,
+            "title": "发货单",
+            "permissionId": 146,
+            "type": 20,
+            "path": "/delivery",
+            "name": "发货单",
+            "parentId": 79,
+            "children": [
+              {
+                "key": 147,
+                "title": "新建发货单页面",
+                "permissionId": 147,
+                "type": 20,
+                "path": "/delivery/create",
+                "name": "新建发货单页面",
+                "parentId": 146,
+                "children": []
+              },
+              {
+                "key": 148,
+                "title": "编辑发货单页面",
+                "permissionId": 148,
+                "type": 20,
+                "path": "/delivery/edit",
+                "name": "编辑发货单页面",
+                "parentId": 146,
+                "children": []
+              },
+              {
+                "key": 149,
+                "title": "发货单详情页面",
+                "permissionId": 149,
+                "type": 20,
+                "path": "/delivery/detail",
+                "name": "发货单详情页面",
+                "parentId": 146,
+                "children": []
+              },
+              {
+                "key": 186,
+                "title": "发货单删除功能",
+                "permissionId": 186,
+                "type": 20,
+                "path": "/delivery/delete",
+                "name": "发货单删除功能",
+                "parentId": 146,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 84,
+        "title": "库存管理页面",
+        "permissionId": 84,
+        "type": 10,
+        "path": "/inventory-manage",
+        "name": "库存管理页面",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 85,
+            "title": "实时库存盘点",
+            "permissionId": 85,
+            "type": 20,
+            "path": "/inventory/realtime",
+            "name": "实时库存盘点",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 114,
+            "title": "入出库记录",
+            "permissionId": 114,
+            "type": 20,
+            "path": "/carrier-inout",
+            "name": "入出库记录",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 115,
+            "title": "入出库记录删除功能",
+            "permissionId": 115,
+            "type": 30,
+            "path": "/carrier-inout/delete",
+            "name": "入出库记录删除功能",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 116,
+            "title": "库存查询",
+            "permissionId": 116,
+            "type": 20,
+            "path": "/inventory/query",
+            "name": "库存查询",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 144,
+            "title": "库存调整页面",
+            "permissionId": 144,
+            "type": 20,
+            "path": "/inventory/adjustment",
+            "name": "库存调整页面",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 145,
+            "title": "生成库存调整",
+            "permissionId": 145,
+            "type": 20,
+            "path": "/inventory/adjustment/create",
+            "name": "生成库存调整",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 150,
+            "title": "编辑库存调整",
+            "permissionId": 150,
+            "type": 20,
+            "path": "/inventory/adjustment/edit",
+            "name": "编辑库存调整",
+            "parentId": 84,
+            "children": []
+          },
+          {
+            "key": 151,
+            "title": "库存调整详情",
+            "permissionId": 151,
+            "type": 20,
+            "path": "/inventory/adjustment/detail",
+            "name": "库存调整详情",
+            "parentId": 84,
+            "children": []
+          }
+        ]
+      },
+      {
+        "key": 127,
+        "title": "历史轨迹",
+        "permissionId": 127,
+        "type": 20,
+        "path": "/map/history",
+        "name": "历史轨迹",
+        "parentId": 0,
+        "children": []
+      },
+      {
+        "key": 128,
+        "title": "定位管理菜单",
+        "permissionId": 128,
+        "type": 10,
+        "path": "/locating-center",
+        "name": "定位管理菜单",
+        "parentId": 0,
+        "children": [
+          {
+            "key": 129,
+            "title": "载具定位",
+            "permissionId": 129,
+            "type": 20,
+            "path": "/carrier-locating",
+            "name": "载具定位",
+            "parentId": 128,
+            "children": []
+          }
+        ]
+      },
+      {
+        "key": 141,
+        "title": "英语地图",
+        "permissionId": 141,
+        "type": 20,
+        "path": "/bing/map",
+        "name": "英语地图",
+        "parentId": 0,
+        "children": []
+      },
+      {
+        "key": 142,
+        "title": "英语历史轨迹",
+        "permissionId": 142,
+        "type": 20,
+        "path": "/map/bingHistory",
+        "name": "英语历史轨迹",
+        "parentId": 0,
+        "children": []
+      }
+    ]
+  }
+}
