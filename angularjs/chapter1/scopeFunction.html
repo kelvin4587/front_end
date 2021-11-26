@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world!</title>
+    <script src="../js/angular.js"></script>
+</head>
+<body ng-app>
+    <ul ng-controller="WorldCtrl">
+        <li ng-repeat="country in countries">
+            {{country.name}} has population of {{country.population}},{{worldsPercentage(country.population)}} % of the World's population
+        </li>
+        <hr/>
+        World's population:{{population}} millions
+    </ul> 
+</body>
+</html>
+<script>
+    var WorldCtrl = function($scope){
+        $scope.population = 7000;
+        $scope.countries = [
+            {name:'France',population:63.1},
+            {name:'United Kingdom',population:61.8}
+        ]
+        $scope.worldsPercentage=function(countryPopulation){
+            return ((countryPopulation/$scope.population)*100).toFixed(2);
+        }
+    }
+</script>

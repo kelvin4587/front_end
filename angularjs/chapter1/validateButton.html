@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate button</title>
+    <script src="../js/angular.js"></script>
+    <link rel="stylesheet" href="css/web.css">
+    <script>
+        var MAX_LEN = 10;
+        var WARN_THRESHOLD = 0;
+        var TextAreaWithLimitCtrl=function($scope){
+            $scope.message="";
+            $scope.remaining = function(){
+                debugger;
+                return MAX_LEN-$scope.message.length;
+            }
+            $scope.shouldWarn = function(){
+                return $scope.remaining()<WARN_THRESHOLD;
+            }
+            $scope.clear =function(){
+                debugger;
+                $scope.message="";
+            }
+        }
+    </script>
+</head>
+<body ng-app>
+    <div class="container" ng-controller="TextAreaWithLimitCtrl">
+        <div class="row">
+            <span ng-class="{'text-warning':shouldWarn()}">Remaining:{{remaining()}}</span>
+            <textarea ng-modle="message">
+                {{message}}
+            </textarea>
+        </div>
+        <div class="row">
+            <button ng-click="send()">Send</button>
+            <button ng-click="clear()">Clear</button>
+        </div>
+    </div> 　 　 
+</body>
+</html>
