@@ -13,14 +13,12 @@
         var TextAreaWithLimitCtrl=function($scope){
             $scope.message="";
             $scope.remaining = function(){
-                debugger;
                 return MAX_LEN-$scope.message.length;
             }
             $scope.shouldWarn = function(){
                 return $scope.remaining()<WARN_THRESHOLD;
             }
             $scope.clear =function(){
-                debugger;
                 $scope.message="";
             }
         }
@@ -30,7 +28,7 @@
     <div class="container" ng-controller="TextAreaWithLimitCtrl">
         <div class="row">
             <span ng-class="{'text-warning':shouldWarn()}">Remaining:{{remaining()}}</span>
-            <textarea ng-modle="message">
+            <textarea ng-model="message">
                 {{message}}
             </textarea>
         </div>
